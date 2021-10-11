@@ -1,5 +1,5 @@
 # Read in CSV file
-MechaCar_mpg <- read.csv(file = 'Downloads/MechaCar_mpg.csv')
+MechaCar_mpg <- read.csv(file = 'Desktop/Data_Analytics /MechaCar_Statistical_Analysis/MechaCar_mpg.csv')
 
 #Create multiple linear regression model
 mechaCarModel <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data = MechaCar_mpg) 
