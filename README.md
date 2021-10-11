@@ -11,4 +11,11 @@
 ## Summary Statistics on Suspension Coils
 <img width="447" alt="Screen Shot 2021-10-10 at 4 10 52 PM" src="https://user-images.githubusercontent.com/85920136/136715892-fb6b5b1b-9ac0-42c3-a8cf-5da107a58e03.png">
 <img width="521" alt="Screen Shot 2021-10-10 at 4 11 15 PM" src="https://user-images.githubusercontent.com/85920136/136715909-302200be-9434-416d-afbd-dd2d34374cc7.png">
-The design specificaions for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. For all manufacturing lots in total, the current manufacturing data meets this design specification, as the PSI variance for the total summary of all lots is 62.29356. For each lot individually, the only lot where the PSI variance does not meet the design specification is Lot 3, where the PSI variance is 170.2861224. 
+The design specificaions for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. For all manufacturing lots in total, the current manufacturing data meets this design specification, as the PSI variance for the total summary of all lots is 62.29356. For each lot individually, the only lot where the PSI variance does not meet the design specification is Lot 3, where the PSI variance is 170.2861224.
+
+## T-Tests on Suspension Coils
+<img width="397" alt="Screen Shot 2021-10-10 at 4 43 43 PM" src="https://user-images.githubusercontent.com/85920136/136716781-fb398e61-fb25-4aef-8946-cb11810e2576.png">
+<img width="675" alt="Screen Shot 2021-10-10 at 4 43 58 PM" src="https://user-images.githubusercontent.com/85920136/136716824-0e44725a-c68f-4a4d-904d-48323dc2d028.png">
+<img width="671" alt="Screen Shot 2021-10-10 at 4 44 08 PM" src="https://user-images.githubusercontent.com/85920136/136716825-be331c00-5e31-44e6-8b6f-820b3e01fe21.png">
+<img width="664" alt="Screen Shot 2021-10-10 at 4 44 16 PM" src="https://user-images.githubusercontent.com/85920136/136716827-3f688ed9-e046-4399-955b-129adb76627e.png">
+The t-test for the overall population of cars in all lots has a p-value of 0.06, which is above 0.05, therefore, we must fail to reject the null hypothesis, that is, accept the null hypothesis that the mean PSI is 1500. For each individual lot, the only p-value that was below 0.05, was Lot 3, which had a p-value of 0.04168. For this lot, we reject the null hypothesis in favor of the alternative hypothesis, that the true mean is not equal to 1500, it is 1496.14. For Lots 1 and 2, we accept the null hypotheses. 
